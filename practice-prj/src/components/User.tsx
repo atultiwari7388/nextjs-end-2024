@@ -1,8 +1,14 @@
-type UserData = {
+// type UserData = {
+//   name: string;
+//   age: number;
+//   isStudent: boolean;
+// };
+
+interface UserData {
   name: string;
   age: number;
   isStudent: boolean;
-};
+}
 
 export const User = ({ name, age, isStudent }: UserData) => {
   return (
