@@ -1,3 +1,5 @@
+import { FC } from "react";
+
 // type UserData = {
 //   name: string;
 //   age: number;
@@ -10,7 +12,7 @@ interface UserData {
   isStudent: boolean;
 }
 
-export const User = ({ name, age, isStudent }: UserData) => {
+export const User: FC<UserData> = ({ name, age, isStudent }) => {
   return (
     <div>
       <h1>{name}</h1>
