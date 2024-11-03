@@ -1,12 +1,10 @@
-export const User = ({
-  name,
-  age,
-  isStudent,
-}: {
+type UserData = {
   name: string;
   age: number;
   isStudent: boolean;
-}) => {
+};
+
+export const User = ({ name, age, isStudent }: UserData) => {
   return (
     <div>
       <h1>{name}</h1>
