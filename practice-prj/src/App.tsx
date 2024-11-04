@@ -5,6 +5,7 @@ import { UserInfo } from "./components/UserInfo";
 import { AdminInfo, Info } from "./types/info_types";
 import { Counter } from "./components/Counter";
 import { UserProfile } from "./components/UserProfile";
+import { TodoList } from "./components/TodoList";
 
 const App = () => {
   const userData: Info = {
@@ -34,6 +35,7 @@ const App = () => {
       <AdminInfoComponent admin={adminData} />
       <Counter />
       <UserProfile />
+      <TodoList />
     </div>
   );
 };
