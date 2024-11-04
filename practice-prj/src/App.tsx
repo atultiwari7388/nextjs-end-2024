@@ -6,6 +6,7 @@ import { AdminInfo, Info } from "./types/info_types";
 import { Counter } from "./components/Counter";
 import { UserProfile } from "./components/UserProfile";
 import { TodoList } from "./components/TodoList";
+import { FormComp } from "./components/FormComp";
 
 const App = () => {
   const userData: Info = {
@@ -36,6 +37,7 @@ const App = () => {
       <Counter />
       <UserProfile />
       <TodoList />
+      <FormComp />
     </div>
   );
 };
