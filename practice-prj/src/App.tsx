@@ -9,6 +9,7 @@ import { TodoList } from "./components/TodoList";
 import { FormComp } from "./components/FormComp";
 import { CounterTwo } from "./components/CounterTwo";
 import { CounterThree } from "./components/CounterThree";
+import { Hero } from "./components/Hero";
 
 const App = () => {
   const userData: Info = {
@@ -27,6 +28,7 @@ const App = () => {
 
   return (
     <div>
+      <Hero />
       <User name="Darling" age={20} isStudent={true} />
       <Button
         label="Click"
