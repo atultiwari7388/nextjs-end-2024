@@ -10,6 +10,7 @@ import { FormComp } from "./components/FormComp";
 import { CounterTwo } from "./components/CounterTwo";
 import { CounterThree } from "./components/CounterThree";
 import { Hero } from "./components/Hero";
+import HookForm from "./components/HookForm";
 
 const App = () => {
   const userData: Info = {
@@ -44,6 +45,7 @@ const App = () => {
       <FormComp />
       <CounterTwo />
       <CounterThree />
+      <HookForm />
     </div>
   );
 };
