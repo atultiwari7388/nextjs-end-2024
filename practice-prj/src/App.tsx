@@ -7,6 +7,7 @@ import { Counter } from "./components/Counter";
 import { UserProfile } from "./components/UserProfile";
 import { TodoList } from "./components/TodoList";
 import { FormComp } from "./components/FormComp";
+import { CounterTwo } from "./components/CounterTwo";
 
 const App = () => {
   const userData: Info = {
@@ -38,6 +39,7 @@ const App = () => {
       <UserProfile />
       <TodoList />
       <FormComp />
+      <CounterTwo />
     </div>
   );
 };
