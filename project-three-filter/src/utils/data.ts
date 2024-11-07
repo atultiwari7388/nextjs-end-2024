@@ -1,0 +1,100 @@
+export const data = [
+  {
+    client: "Amit Sharma",
+    country: "India",
+    email: "amit.sharma@gmail.com",
+    project: "AI Research Platform",
+    progress: "10%",
+    status: "Completed",
+    date: "10/06/2023",
+    image:
+      "https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?q=80&w=1887&auto=format&fit=crop",
+  },
+  {
+    client: "Priya Singh",
+    country: "India",
+    email: "priya.singh@gmail.com",
+    project: "Blockchain Development",
+    progress: "20%",
+    status: "In Progress",
+    date: "22/07/2023",
+    image:
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop",
+  },
+  {
+    client: "Rajesh Kumar",
+    country: "India",
+    email: "rajesh.kumar@gmail.com",
+    project: "E-Learning System",
+    progress: "100%",
+    status: "In Progress",
+    date: "30/08/2023",
+    image:
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1887&auto=format&fit=crop",
+  },
+  {
+    client: "Sunita Reddy",
+    country: "India",
+    email: "sunita.reddy@gmail.com",
+    project: "Mobile Payment App",
+    progress: "50%",
+    status: "In Progress",
+    date: "15/09/2023",
+    image:
+      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1887&auto=format&fit=crop",
+  },
+  {
+    client: "Arjun Mehta",
+    country: "India",
+    email: "arjun.mehta@gmail.com",
+    project: "Smart Home Automation",
+    progress: "30%",
+    status: "In Progress",
+    date: "05/07/2023",
+    image:
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1887&auto=format&fit=crop",
+  },
+  {
+    client: "Nidhi Verma",
+    country: "India",
+    email: "nidhi.verma@gmail.com",
+    project: "Virtual Reality Game",
+    progress: "8%",
+    status: "In Progress",
+    date: "23/06/2023",
+    image:
+      "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?q=80&w=1995&auto=format&fit=crop",
+  },
+  {
+    client: "Kiran Patel",
+    country: "India",
+    email: "kiran.patel@gmail.com",
+    project: "E-Commerce Platform",
+    progress: "60%",
+    status: "In Progress",
+    date: "18/05/2023",
+    image:
+      "https://images.unsplash.com/photo-1526510747491-58f928ec870f?q=80&w=1887&auto=format&fit=crop",
+  },
+  {
+    client: "Ananya Das",
+    country: "India",
+    email: "ananya.das@gmail.com",
+    project: "Tourism Website",
+    progress: "80%",
+    status: "Completed",
+    date: "12/08/2023",
+    image: "https://example.com/images/ananya.jpg",
+  },
+  {
+    client: "Vikram Nair",
+    country: "India",
+    email: "vikram.nair@gmail.com",
+    project: "Healthcare App",
+    progress: "90%",
+    status: "In Progress",
+    date: "27/09/2023",
+    image:
+      "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?q=80&w=1887&auto=format&fit=crop",
+  },
+];
